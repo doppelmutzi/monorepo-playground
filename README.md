@@ -9,7 +9,7 @@ You can clean the mono repo with the following command to start from a clean wor
 $ yarn cleanup
 ```
 
-## Approach 2 &ndash; Lerna with npm
+## Approach 3 &ndash; Lerna with yarn
 
 All 3 projects are located at _projects_ folder. The following steps are required to run the app:
 
