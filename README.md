@@ -31,6 +31,7 @@ $ yarn build:lib
 
 ```bash
 $ cd projects/app
+$ yarn
 $ yarn serve
 ```
 
