@@ -1,0 +1,13 @@
+{
+    "name": "server",
+    "version": "0.1.0",
+    "main": "index.js",
+    "author": "Sebastian Weber",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.16.3"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "@doppelmutzi/awesome-components",
+    "license": "MIT",
+    "author": "Sebastian Weber",
+    "version": "0.1.0",
+    "main": "./dist/awesome.common.js",
+    "files": [
+        "dist/*",
+        "src/*",
+        "public/*",
+        "*.json",
+        "*.js"
+    ],
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "build:lib": "vue-cli-service build --target lib --name awesome ./src/components/index.js"
+    },
+    "dependencies": {
+        "vue": "^2.5.17"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.0.3",
+        "@vue/cli-service": "^3.0.3",
+        "vue-template-compiler": "^2.5.17"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "yarn-lerna",
+    "version": "0.1.0",
+    "description": "Awesome mono repo",
+    "author": "Sebastian Weber",
+    "license": "MIT",
+    "private": true
+}

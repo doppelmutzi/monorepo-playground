@@ -1,0 +1,19 @@
+{
+    "name": "@doppelmutzi/awesome-app",
+    "license": "MIT",
+    "author": "Sebastian Weber",
+    "version": "0.1.0",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build"
+    },
+    "dependencies": {
+        "vue": "^2.5.17",
+        "@doppelmutzi/awesome-components": "../lib"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.0.3",
+        "@vue/cli-service": "^3.0.3",
+        "vue-template-compiler": "^2.5.17"
+    }
+}
