@@ -10,8 +10,5 @@
     ],
     "scripts": {
         "cleanup": "./cleanup.sh"
-    },
-    "devDependencies": {
-        "lerna": "^3.3.1"
     }
 }
