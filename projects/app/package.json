@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "vue": "^2.5.17",
-        "@doppelmutzi/awesome-components": "file:./../lib"
+        "@doppelmutzi/awesome-components": "0.1.0"
     },
     "devDependencies": {
         "@vue/cli-plugin-babel": "^3.0.3",

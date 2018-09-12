@@ -5,10 +5,16 @@
     "author": "Sebastian Weber",
     "license": "MIT",
     "private": true,
-    "workspaces": [
-        "projects/*"
-    ],
+    "bolt": {
+        "workspaces": [
+            "projects/*"
+        ]
+    },
     "scripts": {
-        "cleanup": "./cleanup.sh"
+        "cleanup": "./cleanup.sh",
+        "bootstrap": "bolt"
+    },
+    "dependencies": {
+        "bolt": "^0.21.2"
     }
 }
