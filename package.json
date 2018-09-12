@@ -6,6 +6,10 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "cleanup": "./cleanup.sh"
+        "cleanup": "./cleanup.sh",
+        "bootstrap": "lerna bootstrap"
+    },
+    "devDependencies": {
+        "lerna": "^3.3.1"
     }
 }
