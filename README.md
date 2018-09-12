@@ -13,7 +13,7 @@ $ yarn cleanup
 
 All 3 projects are located at _projects_ folder. The following steps are required to run the app:
 
-1. Init all dependencies and bootstrap all dependencies of all projects.
+1. Bootstrap all dependencies of all projects. No `lerna bootstrap` is required since `yarn` or `yarn install` is doing the same.
 
 ```bash
 $ yarn
@@ -39,3 +39,7 @@ $ yarn serve
 $ cd projects/server
 $ yarn start
 ```
+
+## Thoughts about this Mono Repo Approach
+
+`Lerna` does not have any advantage if you just consider the `mono repo perspective`. Dependency management and hoisting to root level is natively done by `Yarn Workspaces`. However, `Lerna` can add benefit with its sophisticated commands, e.g., publishing, scoped commands, running a series of operations, etc.
