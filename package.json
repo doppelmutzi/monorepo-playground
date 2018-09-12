@@ -5,9 +5,11 @@
     "author": "Sebastian Weber",
     "license": "MIT",
     "private": true,
+    "workspaces": [
+        "projects/*"
+    ],
     "scripts": {
-        "cleanup": "./cleanup.sh",
-        "bootstrap": "lerna bootstrap"
+        "cleanup": "./cleanup.sh"
     },
     "devDependencies": {
         "lerna": "^3.3.1"

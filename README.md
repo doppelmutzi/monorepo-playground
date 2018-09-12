@@ -9,15 +9,14 @@ You can clean the mono repo with the following command to start from a clean wor
 $ yarn cleanup
 ```
 
-## Approach 3 &ndash; Lerna with yarn
+## Approach 3 &ndash; Lerna with yarn workspaces
 
 All 3 projects are located at _projects_ folder. The following steps are required to run the app:
 
-1. Init Lerna and bootstrap all dependencies of all projects.
+1. Init all dependencies and bootstrap all dependencies of all projects.
 
 ```bash
 $ yarn
-$ yarn bootstrap
 ```
 
 2. Build lib.
