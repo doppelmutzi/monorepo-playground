@@ -10,7 +10,9 @@
     ],
     "scripts": {
         "cleanup": "./cleanup.sh",
-        "build:doppelmutzi": "lerna run --scope=@doppelmutzi/* build"
+        "build:doppelmutzi": "lerna run --scope=@doppelmutzi/* build",
+        "build:dependent": "lerna run --scope=@doppelmutzi/awesome-app build --include-filtered-dependencies",
+        "build:all": "lerna exec yarn build"
 
     },
     "devDependencies": {

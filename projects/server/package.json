@@ -5,7 +5,8 @@
     "author": "Sebastian Weber",
     "license": "MIT",
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "build": "echo build server"
     },
     "dependencies": {
         "express": "^4.16.3"
