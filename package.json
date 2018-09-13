@@ -9,7 +9,9 @@
         "projects/*"
     ],
     "scripts": {
-        "cleanup": "./cleanup.sh"
+        "cleanup": "./cleanup.sh",
+        "build:doppelmutzi": "lerna run --scope=@doppelmutzi/* build"
+
     },
     "devDependencies": {
         "lerna": "^3.3.1"

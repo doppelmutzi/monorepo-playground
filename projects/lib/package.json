@@ -11,15 +11,25 @@
         "*.json",
         "*.js"
     ],
+    "config": {
+        "npm": {
+            "registry": {
+                "releases": "https://artifactory.doppelmutzi.com/"
+            }
+        }
+    },
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
-        "build:lib": "vue-cli-service build --target lib --name awesome ./src/components/index.js"
+        "build:lib": "vue-cli-service build --target lib --name awesome ./src/components/index.js",
+        "publish": "lerna publish",
+        "publish:release": "lerna publish --registry $npm_package_config_npm_registry_releases --repo-version $npm_package_version --yes --force-publish=*"
     },
     "dependencies": {
         "vue": "^2.5.17"
     },
     "devDependencies": {
+        "lerna": "^3.3.2",
         "@vue/cli-plugin-babel": "^3.0.3",
         "@vue/cli-service": "^3.0.3",
         "vue-template-compiler": "^2.5.17"
