@@ -29,9 +29,10 @@
         "vue": "^2.5.17"
     },
     "devDependencies": {
-        "lerna": "^3.3.2",
         "@vue/cli-plugin-babel": "^3.0.3",
         "@vue/cli-service": "^3.0.3",
-        "vue-template-compiler": "^2.5.17"
+        "lerna": "^3.3.2",
+        "vue-template-compiler": "^2.5.17",
+        "vueify": "^9.4.1"
     }
 }
