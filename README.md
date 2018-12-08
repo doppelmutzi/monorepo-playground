@@ -6,7 +6,7 @@ _Switch branches to see different approaches_
 You can clean the mono repo with the following command to start from a clean workspace:
 
 ```bash
-$ yarn cleanup
+$ npm run cleanup
 ```
 
 ## Approach 2 &ndash; Lerna with npm
@@ -16,28 +16,28 @@ All 3 projects are located at _projects_ folder. The following steps are require
 1. Init Lerna and bootstrap all dependencies of all projects.
 
 ```bash
-$ yarn
-$ yarn bootstrap
+$ npm i
+$ npm run bootstrap
 ```
 
 2. Build lib.
 
 ```bash
 $ cd projects/lib
-$ yarn build:lib
+$ npm run build:lib
 ```
 
 3. Run app.
 
 ```bash
 $ cd projects/app
-$ yarn
-$ yarn serve
+$ npm i
+$ npm run serve
 ```
 
 4. Run server.
 
 ```bash
 $ cd projects/server
-$ yarn start
+$ npm start
 ```
