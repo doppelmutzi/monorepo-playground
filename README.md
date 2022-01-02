@@ -1,5 +1,7 @@
 # Showcase of Different Mono Repo Approaches
 
+Companion project to my [blog post](https://doppelmutzi.github.io/monorepo-lerna-yarn-workspaces/) on mono-repo approaches with different package managers.
+
 This is only a showcase. Do not expect an awesome app. The focus is on showing different mono repo approaches and which steps are required.
 
 _Switch branches to see different approaches_
