@@ -1,23 +1,39 @@
 {
-    "name": "yarn-lerna",
-    "version": "0.1.0",
-    "description": "Awesome mono repo",
-    "author": "Sebastian Weber",
-    "license": "MIT",
-    "private": true,
-    "workspaces": [
-        "projects/*"
-    ],
-    "scripts": {
-        "cleanup": "./cleanup.sh",
-        "build:doppelmutzi": "lerna run --scope=@doppelmutzi/* build",
-        "build:dependent": "lerna run --scope=@doppelmutzi/awesome-app build --include-filtered-dependencies",
-        "build:all": "lerna exec yarn build"
-    },
-    "devDependencies": {
-        "lerna": "^3.3.1"
-    },
-    "dependencies": {
-        "lerna-changelog": "^2.2.0"
+  "name": "yarn-lerna",
+  "version": "0.1.0",
+  "description": "Awesome mono repo",
+  "author": "Sebastian Weber",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "projects/*"
+  ],
+  "scripts": {
+    "cleanup": "./cleanup.sh",
+    "build:doppelmutzi": "lerna run --scope=@doppelmutzi/* build",
+    "build:dependent": "lerna run --scope=@doppelmutzi/awesome-app build --include-filtered-dependencies",
+    "build:all": "lerna exec yarn build",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
     }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "commitizen": "^4.2.4",
+    "cz-lerna-changelog": "^2.0.3",
+    "husky": "^7.0.4",
+    "lerna": "^3.3.1"
+  },
+  "dependencies": {
+    "lerna-changelog": "^2.2.0"
+  }
 }

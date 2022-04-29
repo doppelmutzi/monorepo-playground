@@ -1,20 +1,21 @@
 {
-    "name": "@doppelmutzi/awesome-app",
-    "license": "MIT",
-    "author": "Sebastian Weber",
-    "version": "0.1.1",
-    "scripts": {
-        "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build"
-    },
-    "dependencies": {
-        "@doppelmutzi/awesome-components": "file:./../lib",
-        "vue": "^2.5.17"
-    },
-    "devDependencies": {
-        "@vue/cli-plugin-babel": "^3.0.3",
-        "@vue/cli-service": "^3.0.3",
-        "vue-template-compiler": "^2.5.17",
-        "vueify": "^9.4.1"
-    }
+  "name": "awesome-app",
+  "license": "MIT",
+  "author": "Sebastian Weber",
+  "version": "0.1.1",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "awesome-components": "0.1.1",
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.3",
+    "@vue/cli-service": "^3.0.3",
+    "vue-template-compiler": "^2.5.17",
+    "vueify": "^9.4.1"
+  },
+  "gitHead": "a0aeb9fbadaa69626a264729a068cdcd7c41ed26"
 }
