@@ -13,9 +13,11 @@
         "build:doppelmutzi": "lerna run --scope=@doppelmutzi/* build",
         "build:dependent": "lerna run --scope=@doppelmutzi/awesome-app build --include-filtered-dependencies",
         "build:all": "lerna exec yarn build"
-
     },
     "devDependencies": {
         "lerna": "^3.3.1"
+    },
+    "dependencies": {
+        "lerna-changelog": "^2.2.0"
     }
 }

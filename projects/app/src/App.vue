@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Awesome app -- change</h1>
+    <h1>Awesome app -- change -----</h1>
     <awesome-button text="aweseom button from Lib"></awesome-button>
   </div>
 </template>

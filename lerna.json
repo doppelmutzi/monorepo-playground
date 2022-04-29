@@ -1,9 +1,23 @@
 {
-    "lerna": "2.5.1",
-    "packages": [
-        "projects/*"
-    ],
-    "version": "0.1.0",
-    "npmClient": "yarn",
-    "useWorkspaces": true
+  "lerna": "2.5.1",
+  "packages": ["projects/*"],
+  "version": "0.1.0",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "ignoreChanges": ["*.md", "**/test/**"],
+      "message": "chore(release): publish"
+    }
+  },
+  "changelog": {
+    "repo": "ezDragH5/monorepo-playground",
+    "labels": {
+      "enhancement": ":rocket: Enhancement",
+      "bug": ":bug: Bug Fix",
+      "doc": "Refine Doc",
+      "feat": "New Feature"
+    },
+    "cacheDir": ".changelog"
+  }
 }
