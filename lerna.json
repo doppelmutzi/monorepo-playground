@@ -1,7 +1,9 @@
 {
   "lerna": "2.5.1",
-  "packages": ["projects/*"],
-  "version": "0.1.1",
+  "packages": [
+    "projects/*"
+  ],
+  "version": "0.2.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
@@ -9,7 +11,10 @@
       "conventionalCommits": true
     },
     "publish": {
-      "ignoreChanges": ["*.md", "**/test/**"],
+      "ignoreChanges": [
+        "*.md",
+        "**/test/**"
+      ],
       "message": "chore(release): publish"
     }
   },
