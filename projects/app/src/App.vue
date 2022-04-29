@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Awesome app</h1>
+    <h1>Awesome app -- change</h1>
     <awesome-button text="aweseom button from Lib"></awesome-button>
   </div>
 </template>
@@ -11,8 +11,8 @@ import Components from "@doppelmutzi/awesome-components";
 export default {
   name: "app",
   components: {
-    ...Components
-  }
+    ...Components,
+  },
 };
 </script>
 
