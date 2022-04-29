@@ -2,7 +2,7 @@
     "name": "@doppelmutzi/awesome-components",
     "license": "MIT",
     "author": "Sebastian Weber",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "main": "./dist/awesome.common.js",
     "files": [
         "dist/*",
